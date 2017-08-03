@@ -59,19 +59,6 @@ class WeisuenSpider(scrapy.Spider):
                 msg['From'] = from_addr
                 msg['To'] = to_addrs
 
-                # Attach HTML to the email
-                #body = MIMEText(html, 'html')
-                #msg.attach(body)
-
-                # Attach Cover Letter to the email
-                #cover_letter = MIMEApplication(open("file1.pdf", "rb").read())
-                #cover_letter.add_header('Content-Disposition', 'attachment', filename="file1.pdf")
-                #msg.attach(cover_letter)
-
-                # Attach Resume to the email
-                #cover_letter = MIMEApplication(open("file2.pdf", "rb").read())
-                #cover_letter.add_header('Content-Disposition', 'attachment', filename="file2.pdf")
-                #msg.attach(cover_letter)
 
                 try:
                     send_mail(username, password, from_addr, to_addrs, msg)
