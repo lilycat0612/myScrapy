@@ -4,6 +4,28 @@
 import scrapy
 from myFirst.items import MyfirstItem
 import os
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
+from smtplib import SMTPAuthenticationError
+
+#hard code need to changed
+username = 'rpi_report_ip@outlook.com'  # Email Address from the email you want to send an email
+password = 'ThisIsRobot'  # Password
+server = smtplib.SMTP('')
+from_addr='rpi_report_ip@outlook.com'
+
+# Function that send email.
+def send_mail(username, password, from_addr, to_addrs, msg):
+    #server = smtplib.SMTP('smtp-mail.outlook.com', '587')
+    server = smtplib.SMTP('Smtp.live.com', '25')#hard code need to changed
+    server.ehlo()
+    server.starttls()
+    server.ehlo()
+    server.login(username, password)
+    server.sendmail(from_addr, to_addrs, msg.as_string())
+    server.quit()
 
 class WeisuenSpider(scrapy.Spider):
     name='weisuen'
@@ -29,4 +51,32 @@ class WeisuenSpider(scrapy.Spider):
             file_object = open('IP.txt', 'w')
             file_object.write(MyIP)
             file_object.close()
-        
+            email_list = [line.strip() for line in open('email.txt')] #for windows #hard code need to changed
+
+            for to_addrs in email_list:
+                msg = MIMEMultipart()
+                msg['Subject'] = "You IP address has changed" + MyIP
+                msg['From'] = from_addr
+                msg['To'] = to_addrs
+
+                # Attach HTML to the email
+                #body = MIMEText(html, 'html')
+                #msg.attach(body)
+
+                # Attach Cover Letter to the email
+                #cover_letter = MIMEApplication(open("file1.pdf", "rb").read())
+                #cover_letter.add_header('Content-Disposition', 'attachment', filename="file1.pdf")
+                #msg.attach(cover_letter)
+
+                # Attach Resume to the email
+                #cover_letter = MIMEApplication(open("file2.pdf", "rb").read())
+                #cover_letter.add_header('Content-Disposition', 'attachment', filename="file2.pdf")
+                #msg.attach(cover_letter)
+
+                try:
+                    send_mail(username, password, from_addr, to_addrs, msg)
+                    print ("Email successfully sent")
+                #The sever doesn't accept username and password
+                except SMTPAuthenticationError:
+                    print ('SMTPAuthenticationError')
+                    print ("Email NOT sent")
