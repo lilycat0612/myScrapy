@@ -14,5 +14,5 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
 15	13	*	*	*	pi	. /backup/backup.sh >> /backup/backup.txt
 #10	10	*	*	*	pi	. /home/pi/python_code/hello.sh >> /home/pi/python_code/he
-*/5	*	*	*	*	pi	. /home/pi/python_code/Scrapy/myScrapy/myFirst/myFirst/spiders/myFirst.sh >> /home/pi/python_code/Scrapy/myScrapy/myFirst/myFirst/spiders/runlog.txt
+*/5	*	*	*	*	pi	. /home/pi/python_code/Scrapy/myScrapy/myFirst/myFirst.sh >> /home/pi/python_code/Scrapy/myScrapy/myFirst/runlog.txt
 

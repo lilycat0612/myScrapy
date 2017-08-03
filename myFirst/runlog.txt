@@ -1,4 +1,5 @@
 
+
 check IP
 Scrapy 1.4.0 - no active project
 
@@ -11,3 +12,12 @@ Scrapy 1.4.0 - no active project
 Unknown command: crawl
 
 Use "scrapy" to see available commands
+check IP
+The IP does NOT change
+check IP
+The IP does NOT change
+check IP
+The IP DO change
+Email successfully sent
+Email successfully sent
+check IP
