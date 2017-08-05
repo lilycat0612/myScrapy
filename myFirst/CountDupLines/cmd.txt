@@ -1,22 +1,22 @@
-ls	72
-sudo netstat -tulpn	24
-s	16
+ls	90
+sudo netstat -tulpn	27
+cd ..	14
 scrapy crawl weisuen --nolog	13
 cat my_hist.log	12
+sudo shutdown -h now	12
 docker ps	11
 history	11
-cd ..	11
-sudo shutdown -h now	11
 ./socksproxy.sh	11
-cd conf/network/	8
+cd conf/network/	9
+ip a	9
 scrapy crawl first.py	8
 cd myFirst/	8
-ip a	6
 git diff	5
 conf/network/socksproxy.sh	5
 nohup sslocal -c /home/lily/ss-60-dir.json > /home/lily/conf/network/log-ss-60.log 2>&1 &	5
 ifconfig	5
 ./mynet.sh	5
+cat /proc/sys/net/ipv4/ip_forward	4
 cd python/	4
 google-chrome	4
 cat socksproxy.sh	4
@@ -26,152 +26,154 @@ su -	4
 sudo reboot now	4
 conf/network/mynet.sh	4
 git clone https://github.com/lilycat0612/Selenium	4
-	3
 scrapy crawl weisuen	3
 ./socksproxy.sh manual 127.0.0.1 1080	3
 sslocal -c conf/network/ss-60.json	3
-udo netstat -tulpn	3
 cd spiders/	3
 pip install pyquery	3
 ls -l	3
+sudo pip install shadowsocks	3
 cat conf/network/ss-60.json	3
-d ..	3
 ls conf/network/	3
 cd GitHub/	3
-cat mynet.sh	3
-udo pip install shadowsocks	3
+cd ~	3
 sudo netstat -tupln	3
 sudo passwd root	3
 git push	3
+sudo apt update	3
 sudo dpkg -i chrome-stable-amd64.deb	3
 cat ss-60-dir.json	3
 ./jmeter.sh	3
-cat /proc/sys/net/ipv4/ip_forward	2
+cat mynet.sh	3
 sudo iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT	2
 groups	2
-sudo apt install -f	2
 cd apache-jmeter-3.2/	2
 shutdown -h now	2
 git add *	2
 su	2
 python	2
+sudo sslocal -c ss-60.json	2
 google-chrome &	2
 cd /home	2
-udo sslocal -c ss-60.json	2
 pip list	2
+rm -rf a	2
+python --version	2
+pip install shadowsocks	2
+cd /media	2
+sudo apt install python3-pip	2
 cat Dockerfile	2
 passwd	2
 nohup sslocal -c /home/lily/conf/network/ss-60.json > /home/lily/conf/network/log-ss-60.log 2>&1 &	2
-ip install shadowsocks	2
-p a	2
 docker version	2
 cd lily	2
 sudo iptables -A INPUT -p tcp --dport 1080 -j ACCEPT	2
 telent 127.0.0.1:6023	2
 vim socksproxy.sh	2
+ping www.google.com	2
+java -version	2
 ls -alt	2
-ing www.google.com	2
+cd a	2
 cd Selenium/	2
 vim ss-60-dir.json	2
 cd Downloads/	2
+sudo apt install -f	2
 sudo netstat -antupn	2
 scrapy crawl myFirst/myFirst/scrapy/weisuen --nolog	2
-sudo apt update	2
-m -rf a	2
+python3 --version	2
 pip3 list	2
 sudo iftop	2
-at /proc/sys/net/ipv4/ip_forward	2
 docker run -d -P training/webapp python app.py	2
 git	2
-d a	2
+cat ss-60.json	2
 cat conf/network/mynet.sh	2
 vim my_hist.log	2
 docker search python	2
 cd bin/	2
 docker run -i -t ubuntu:15.10 /bin/bash	2
-java -version	2
- a	1
+history | grep apt	1
 sudo apt puppet	1
 pip update	1
 sudo dpkg -P chrome-stable-amd64	1
-udo service resart NetworkManager	1
-history | grep apt	1
- ~	1
+sudo systemctl restart network	1
+sestatus	1
+sudo service resart NetworkManager	1
+sudo systemctl network restart	1
 cd ~/GitHub/	1
 git remote	1
 sudo netstat	1
+sudo netstat -tun	1
 pip -version	1
 cat conf/network/socksproxy.sh	1
 sudo netstat -tn | less	1
-m a\ c}	1
 cd /Github	1
 ping 192.168.1.141	1
 scrapy crawl first.py --nolog	1
 cmd	1
-sestatus	1
 sudo systemctl restart sshd	1
 cat \proc\sys\net\ipv4\ip_forward	1
 ssh-keygen -t rsa	1
+sudo netstat -t	1
 sudo apt-get install default-jre	1
+cd VBOXADDITIONS_5.1.22_115126/	1
 rm weisuen.py	1
+sudo netstat -tulpn | grep 22	1
 cat /etc/sysconfig/il8n	1
-scp winsonsun@192.168.1.26:chrome_stable_amd64.deb ./chrome-stable-amd64.deb	1
+scp winsonsun@192.168.1.26:socksproxy.sh ./socksproxy.sh	1
 pip upugrade	1
 ls /media	1
 history >> history.txt	1
 sudo apt -f install	1
 docker pull python:3.4	1
 vim install-cmd-list.txt	1
-sudo systemctl enable sshd.service	1
 shutdown -r	1
-udo sslocal -c ~/conf/network/ss-60.json	1
-udo vim sysctl.conf	1
+sudo kill -9 5051	1
 cat weisuen.py	1
+sudo killall chrome	1
 cd ~/Downloads	1
+telnet 13.68.93.156 10211	1
 vim	1
 unzip Selenium-master.zip	1
 rm -f ss-60-dir.json	1
+mkdir -p a/{b c}/d	1
 vim semanage.conf	1
 cd network/	1
 vim conf/network/mynet.sh	1
-udo netstat -tupn	1
 sudo killall -9 python	1
 cd /home/lily	1
-kdir -p a/{b,c}/d	1
+scp winsonsun@192.168.1.26:chrome_stable_amd64.deb ./chrome_stable-amd64.deb	1
 sudo ls -alt	1
-docker logs cranky_turing	1
 sudo netstat -tulpn | grep 10800	1
-udo pip install --upgrade pip	1
-m 'a c}'	1
+cd /etc	1
+rm a\ c}	1
 ping 192.168.1.104	1
 cat	1
-udo apt update	1
-kdir -p a/{b, c}/d	1
+sudo systemctl enable sshd.service	1
 ping github.com	1
 tail -f log-ss-60.log	1
 docker run -i -t ubuntu:15.10 /bin/echo "Hello lily"	1
 sudo df -lh	1
 cat sysctl.conf	1
 docker logs -f 4ee66f0f04d6	1
+sudo pip install --upgrade pip	1
 docker run ubuntu:15.10 /bin/echo "hello world"	1
 docker ps -|	1
 cd myapp/	1
 sudo service start openssh	1
 lily/python/myScrapy/myFirst/myFirst/spiders/scarpy crawl weisuen --nolog	1
-cd lily/python/myScrapy/myFirst/myFirst/spiders/	1
-udo netstat -tun	1
-cp winsonsun@192.168.1.26:ss-60-share.json ./ss-60.json	1
+cd ../..	1
+scp winsonsun@192.168.1.26:ss-60-share.json ./ss-60.json	1
+rm 'a c}'	1
 chmod 777 conf/network/mynet.sh	1
 history | apt	1
 dpkg -l google-chrome*	1
-git pull	1
+history | grep sslocal	1
 sudo apt install openssh-serve	1
 docker run -i -t -d ubuntu:15.10 /bin/echo "Hello lily"	1
 sudo systemctl enalbe sshd.service	1
 sslocal conf/network/ss-60.json	1
 docker run ubantu:15.10 /bin/echo "hello world"	1
-s -al	1
 cd /home/lily/python/myScrapy/	1
+rm "a c}	1
 sudo systemctl enalb esshd.service	1
 sudo kill -9 3392	1
 cd ~/GitHub	1
@@ -179,60 +181,56 @@ docker run -d -P trainingg/webapp python app.py	1
 l	1
 ip -a	1
 vim conf/network/ss-60.json	1
-d conf/network	1
 ls -a	1
-udo service network-manager resart	1
 . socksproxy.sh	1
-udo kill -9 4572	1
 conf/network/socksproxy.sh manual 127.0.0.1 1080	1
-m "a c}"	1
 sudo shutdown -r now	1
 docker pull django:1.7	1
 tar zxvf apache-jmeter-3.2.tgz	1
- lily/	1
+ipa	1
 sudo systemctl enable esshd.service	1
-sudo service docker.io restart	1
+rm "a c}"	1
+sudo sslocal -c ~conf/network/ss-60.json	1
 cat id_rsa.pub	1
 cd myFirst/myFirst/spiders/	1
 sudo apt install libappinidicator1	1
 ssh-keygen -t rsa -C "27803532@qq.com"	1
 sudo apt-get install default-jdk	1
-scp winsonsun@192.168.1.26:socksproxy.sh ./socksproxy.sh	1
-m "a c}	1
+scp winsonsun@192.168.1.26:chrome_stable_amd64.deb ./chrome-stable-amd64.deb	1
+sudo vim sysctl.conf	1
 sudo dpkg -P google-chrome-stable	1
-autorun.sh	1
 cat semanage.conf	1
+cd lily/python/myScrapy/myFirst/myFirst/spiders/	1
 sudo apt install openssh-client	1
 docker stop optimistic_goodall	1
 python$ docker search python	1
-python --version	1
-udo cat /proc/sys/net/ipv4/ip_forward	1
+"	1
+./autorun.sh	1
 docker inspect 4ee66f0f04d6	1
 cd ~/conf/network/	1
-cd /media	1
+vim sysctl.conf	1
 scrapy crawl weisuen --nolo	1
 cat -proc-sys-net-ipv4-ip_forward	1
+mkdir -p a/{b,c}/d	1
 cd /home/lily/	1
-sudo apt install python3-pip	1
 mv history.py ..	1
 ./socksproxy.sh 127.0.0.1 1080	1
-an mkdir	1
 mkdir -p myapp	1
 sudo gpasswd -a ${USER} docker	1
 sudo netstat -t | less	1
 pip help	1
-kdir -p conf/network	1
-d /etc	1
+cd conf/network	1
 pip helo	1
-ping baidu.com	1
+cd .cache	1
 pip3	1
-ython3 --version	1
 ps -aux | grep python	1
 docker run -i -t ubuntu:15.10 /bin/echo"Hello lily"	1
 ps -aux	1
+sudo apt install puppet	1
 sudo apt -y update	1
 cd /etc/	1
 sudo apt install iftop	1
+man mkdir	1
 cd /etc/sysconfig	1
 passws	1
 vim vpn.txt	1
@@ -240,76 +238,74 @@ cd /Downloads	1
 unzip chromedriver_linux64.zip	1
 mkdir -p ~/python ~python/myapp	1
 sudo kill -9 5024	1
-m -rf c}	1
 . mynet.sh	1
-sudo netstat -tulpn | grep 22	1
+telnet 127.0.0.1 1080	1
 cat /home/lily/my_hist.log	1
 cd /home/python/	1
-udo systemctl restart network	1
 sudo apt-get install git	1
-im sysctl.conf	1
 history | less	1
 sudo systemctl start sshd.service	1
- VBOXADDITIONS_5.1.22_115126/	1
 git commit -m "Finished"	1
 sudo apt uninstall puppet	1
 pip3 -list	1
+sslocal -c ss-60.json	1
 easy_install  pyquery	1
 cd python/myScrapy/	1
 git config --global http.proxy 'socks5://127.0.0.1:1080'	1
 pip3 install Django	1
+sudo netstat -tu	1
 git remote add origin git@github.com lilycat0612@selenium.git	1
-udo systemctl network restart	1
 scrapy crawl weisuen.py	1
-sudo apt install puppet	1
+mkdir -p conf/network	1
 scrapy first.py	1
-at ss-60.json	1
 sudo conf/network/socksproxy.sh manual 127.0.0.1 1080	1
-d ../..	1
 sudo apt -f install libappindicator1	1
 cd !	1
 sudo apt upgrade --fix-missing	1
 cd /	1
 sudo apt-get update	1
 docker stop cranky_turing	1
-ython --version	1
-udo sslocal -c ~conf/network/ss-60.json	1
+mkdir -p a/{b, c}/d	1
 cd /etc/selinux/	1
-cd ~	1
 cd .ssh	1
-udo apt install vim	1
+cd c	1
+cd b	1
 sudo apt remove puppet	1
 sudo cp my_hist.log /media/sf_Share/	1
-udo apt install python3-pip	1
 ls conf/network/ss-60.json	1
 git commit -m 'Find MyIP finished'	1
-do shutdown -h now	1
 chrome	1
 docker search django	1
 sudo apt-get install telnet	1
+sudo service network-manager resart	1
 sudo dpkg -P chrome-stable-amd64.deb	1
 docker images	1
 mynet.s	1
 ./ jmeter.sh	1
 cat helloworld.py	1
 sudo service firewall status	1
+cd lily/	1
 ~	1
-elnet 127.0.0.1 1080	1
-s -alh	1
+ls -alh	1
+sudo apt install vim	1
+sudo kill -9 4572	1
+docker logs cranky_turing	1
 passwd root	1
 sudo apt list --upgradable	1
 sudo killall -9 python*	1
+sudo netstat -tupn	1
 docker top 4ee66f0f04d6	1
 pip3 install Selenium	1
 pip install pyopenssl	1
 sudo rebot -n	1
-sudo killall chrome	1
 getenforce	1
 history > ../install-cmd-list.txt	1
-ipa	1
+rm -rf c}	1
 pip install pyqurey	1
 sudo systemctl start esshd.service	1
+sudo apt install python-pip	1
 mynet.sh	1
+sudo cat /proc/sys/net/ipv4/ip_forward	1
 easy_install pyquery	1
 sudo kill -9 5132	1
 sudo kill -9 5032	1
@@ -321,52 +317,40 @@ iftop	1
 sudo apt upgrade	1
 scp winsonsun@192.168.1.26:chrome-stable-amd64.deb ./chrome-stable-amd64.deb	1
 sudo shutdonw -h now	1
-python3 --version	1
 docker run -d ubuntu:15.10 /bin/sh -c "while true;do echo hello world;sleep 1;done"	1
 sudo apt install openssh-server	1
 scrapy crawl weisu	1
-s -alh | less	1
+sudo service docker.io restart	1
 ll -alh conf/network/mynet.sh	1
+ls -alh | less	1
 sudo netstat -tulpn | grep 1080	1
 git commit -am "Finished"	1
 exit	1
- /media	1
-d conf/network/	1
-udo netstat -tu	1
 sudo reboot -n	1
-kdir -p a/{b c}/d	1
 sudo killall python*	1
-udo netstat -t	1
 shutdow -r	1
 /lily/python/myScrapy/myFirst/myFirst/spiders/scarpy crawl weisuen --nolog	1
 sudo netstatus	1
-cp winsonsun@192.168.1.26:chrome_stable_amd64.deb ./chrome_stable-amd64.deb	1
-d .cache	1
 kill -9 2758	1
-m -rf ./*	1
-udo apt install python-pip	1
 sudo service start sshd.service	1
-sudo kill -9 5051	1
-d c	1
-d b	1
-cat ss-60.json	1
+ls -al	1
+ping baidu.com	1
 history > my_hist.log	1
-d ~	1
-istory | grep sslocal	1
 cd Selenium-master/	1
 . conf/network/mynet.sh	1
 netstat -tulpn	1
 sudo apt install libappindicator1	1
-elnet 13.68.93.156 10211	1
+sudo sslocal -c ~/conf/network/ss-60.json	1
 sudo kill -9 5002	1
 docker run -v $PWD/myapp:/usr/src/myapp -w /usr/src/myapp python:3.4 python helloworld.py	1
 sudo systemctl enable sshd	1
 pip upgrade	1
+rm -rf ./*	1
 pip --version	1
 scrapy	1
 sudo killall python	1
 cd python	1
-slocal -c ss-60.json	1
+git pull	1
 /lily/python/myScrapy/myFirst/myFirst/spiders/ scarpy crawl weisuen --nolog	1
 conf/network/socksproxy.sh none	1
 sudo service start sshd	1

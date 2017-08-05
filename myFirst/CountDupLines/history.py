@@ -4,8 +4,9 @@ f = open("history.txt")
 count_dict = {}
 for line in f.readlines():
     line = line.strip()
+    str_blank=line.find(' ')
     #print(line[0:5])
-    line=line[5:]
+    line=line[str_blank+2:]
     #print(line)
     count = count_dict.setdefault(line, 0)
     count += 1
