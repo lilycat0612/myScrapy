@@ -49,6 +49,7 @@ cat ss-60-dir.json	3
 cat /proc/sys/net/ipv4/ip_forward	2
 sudo iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT	2
 groups	2
+sudo apt install -f	2
 cd apache-jmeter-3.2/	2
 shutdown -h now	2
 git add *	2
@@ -73,7 +74,6 @@ ing www.google.com	2
 cd Selenium/	2
 vim ss-60-dir.json	2
 cd Downloads/	2
-sudo apt install -f	2
 sudo netstat -antupn	2
 scrapy crawl myFirst/myFirst/scrapy/weisuen --nolog	2
 sudo apt update	2
@@ -127,7 +127,6 @@ shutdown -r	1
 udo sslocal -c ~/conf/network/ss-60.json	1
 udo vim sysctl.conf	1
 cat weisuen.py	1
-sudo killall chrome	1
 cd ~/Downloads	1
 vim	1
 unzip Selenium-master.zip	1
@@ -304,6 +303,7 @@ docker top 4ee66f0f04d6	1
 pip3 install Selenium	1
 pip install pyopenssl	1
 sudo rebot -n	1
+sudo killall chrome	1
 getenforce	1
 history > ../install-cmd-list.txt	1
 ipa	1
