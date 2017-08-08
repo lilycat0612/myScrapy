@@ -1,0 +1,24 @@
+1502189534312	geckodriver	INFO	geckodriver 0.18.0
+1502189534324	geckodriver	INFO	Listening on 127.0.0.1:58391
+1502189535574	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502189543686	Marionette	INFO	Listening on port 45765
+1502189543800	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502189623096	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1502189713495	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+
+(firefox:3191): Gtk-CRITICAL **: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+
+(firefox:3191): Gtk-CRITICAL **: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+JavaScript error: http://www.ttmeiju.com/index.php/user/login.html, line 221: TypeError: null has no properties
+JavaScript error: http://www.ttmeiju.com/, line 1558: TypeError: null has no properties
+JavaScript error: http://www.ttmeiju.com/index.php/user/myrss.html, line 236: TypeError: null has no properties
+1502189844055	Marionette	INFO	Ceased listening
+1502189852930	geckodriver	INFO	geckodriver 0.18.0
+1502189852937	geckodriver	INFO	Listening on 127.0.0.1:49444
+1502189854487	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502189858418	Marionette	INFO	Listening on port 43976
+1502189858599	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:3466): Gtk-CRITICAL **: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+
+(firefox:3466): Gtk-CRITICAL **: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
