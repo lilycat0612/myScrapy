@@ -18,7 +18,7 @@ class DownloadBtFiles(unittest.TestCase):
 
         url="http://www.ttmeiju.com/index.php/user/myrss.html"
 
-        self.driver=webdriver.Chrome("/home/lily/python/myScrapy/myFirst/mySelenium/chromedriver") #for Chrome
+        self.driver=webdriver.Chrome("./chromedriver") #for Chrome
 
         self.driver.maximize_window()
 
