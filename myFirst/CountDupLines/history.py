@@ -1,6 +1,6 @@
 #coding=utf-8
 import operator
-import xlwt
+
 
 f = open("history.txt")
 count_dict = {}
@@ -20,16 +20,3 @@ for item in sorted_count_dict:
     f2.write(str(item[1])+ "\n") 
 f2.close
 
-f = open("cmd.txt")
-cmd=[]
-for line in f.readlines():
-    cmd.append(line)   
-cmd.sort()
-
-
-file = xlwt.Workbook()
-table = file.add_sheet('sheet1')
-for i, j in enumerate(cmd):
-    print i,j
-    table.write(i,0,j)
-file.save('demo.xls')
