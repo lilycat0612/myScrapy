@@ -3,9 +3,7 @@ import os
 import unittest
 import time
 from selenium import webdriver
-import browsercookie
-import requests
-import re
+
 
 
 'richardpenman / home &mdash; Bitbucket'
